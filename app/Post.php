@@ -34,5 +34,4 @@ class Post extends Model
         //Un post tiene muchas etiquetas asi como una etiqueta tiene muchos posts
         return $this->morphToMany(Tag::class, 'taggable');
     }
-
 }
