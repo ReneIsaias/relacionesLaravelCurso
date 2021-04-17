@@ -46,7 +46,7 @@ Route::get('/level/{id}', function($id){
     return view('level', [
         'level' => $level,
         'posts' => $posts,
-        'videos' => $videos
+        'videos' => $videos,
     ]);
 
 })->name('level');
